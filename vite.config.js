@@ -9,5 +9,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     },
   },
+  base: `/vue3-vite-tailwind-stater/`,// replace your <REPO> name or '/' 
   plugins: [vue()],
 })
